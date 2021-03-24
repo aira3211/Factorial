@@ -24,9 +24,9 @@ int Factorial(int n)
     return 1;
   }
   else
-
-  return (Factorial(n-1)*n);
-
+  {
+    return (Factorial(n-1)*n);
+  }
 
 
 
